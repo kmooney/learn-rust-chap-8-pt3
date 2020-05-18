@@ -37,6 +37,7 @@ fn main() {
 	    }
 
         if input_slice == "list" {
+        	println!("printing your org. chart; please wait...");
 	    	print_dir(&directory);
 	    	continue;
 	    }
